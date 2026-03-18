@@ -1,0 +1,9 @@
+name: PR Commenter
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
